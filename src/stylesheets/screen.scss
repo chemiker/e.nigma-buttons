@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+// Font Awesome
+@import "fontawesome.scss";
+@import "compass/css3";
+
+$default-button-color: #494949;
+$default-button-color-hover: #333;
+
+a.enigma-button {
+	display: inline-block;
+	letter-spacing: 1px;
+	text: {
+		align: center;
+		decoration: none;
+	}
+	color: $default-button-color;
+
+	&:visited {
+		color: $default-button-color;
+	}
+
+	&:hover,
+	&:visited:hover {
+		color: $default-button-color-hover;
+		border-color: $default-button-color-hover;
+	}
+
+	&.has-label {
+		.fa {
+			margin-right: 0.35em;
+		}
+	}
+
+	&.has-border {
+		padding: 0.25em 0.6em 0.25em 0.6em;
+		line-height: 1.5em;
+		height: 1.5em;
+		vertical-align: middle;
+		border: 2px solid $default-button-color;
+		@include border-radius( 12px );
+	}
+
+	&.no-border {
+		border-width: 0px;
+	}
+
+	&.small {
+		font-size: 0.8em;
+	}
+
+	&.medium {
+		font-size: 1em;
+	}
+
+	&.large {
+		font-size: 1.4em;
+	}
+
+	$buttons: (
+		("green", #309c2a, #22711e),
+		("orange", #ff9c00, #da8500),
+		("purple", #b13cad, #832c80),
+		("cyan", #00a8ff, #0088ce),
+		("white", #fff, #c9c9c9),
+		("red", #b70909, #7f0505),
+		("black", #000, #363636)
+	);
+
+	@each $name, $color, $hovercolor in $buttons {
+		&.#{$name} {
+			border-color: $color;
+			color: $color;
+		}
+		&.#{$name}:hover {
+			border-color: $hovercolor;
+			color: $hovercolor;
+		}
+	}
+}
