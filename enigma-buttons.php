@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: e.nigma Buttons
+ * Plugin Name: e.nigma buttons
  * Plugin URI:  http://e.nigma.de/portfolio/enigma-buttons
  * Description: Brings beautiful buttons to your WordPress installation.
  * Version:     1.0.0
- * Author:      chemiker
+ * Author:      Alexander Lüken
  * Author URI:  http://e.nigma.de
  * License:     MIT
  * License URI: license.txt
