@@ -12,7 +12,7 @@ e.nigma buttons allows you to easily add buttons to your posts, pages etc.
 
 == Description ==
 
-e.nigma buttons is a lightweight plugin that adresses a common problem that applies to many WordPress users: Visually highlight a link (e.g. a download link). One great solution of this problem is a button.
+e.nigma buttons is a lightweight plugin that adresses a common problem that applies to many WordPress users: Visually highlight a link (e.g. a download link). One great solution is the use of buttons
 
 The purpose of a button is clear. You press that button and something happens. This is a well known principle that most users are aware of. In contrast to regular text links (e.g. a download link), buttons are more likely to be noticed, especially if you use them in combination with an icon.
 
