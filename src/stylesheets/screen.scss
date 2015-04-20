@@ -35,10 +35,13 @@ a.enigma-button {
 	&.has-border {
 		padding: 0.25em 0.6em 0.25em 0.6em;
 		line-height: 1.5em;
-		height: 1.5em;
 		vertical-align: middle;
 		border: 2px solid $default-button-color;
 		@include border-radius( 12px );
+
+		&:hover {
+			border-width: 2px !important;
+		}
 	}
 
 	&.no-border {

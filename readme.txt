@@ -3,8 +3,8 @@ Contributors: chemiker
 Donate link: https://flattr.com/profile/chemiker
 Tags: button, post, page, font awesome, icon
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.0.0
+Tested up to: 4.2
+Stable tag: 1.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -27,6 +27,14 @@ Feel free to contribute and to fix errors or send improvements via github.
 == Installation ==
 1. Upload the plugin folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Changelog ==
+
+= 1.0.1 =
+* Fix wrong line-height for various themes
+
+= 1.0 =
+* Initial release
 
 == Frequently Asked Questions ==
 
