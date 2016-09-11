@@ -73,6 +73,8 @@ The following colors are avaible:
 * red
 * black
 
+In addition to those values you can also use a hex color code (e.g. #ff3600) 
+
 = Icons =
 *e.nigma buttons* uses [Font Awesome](http://fontawesome.io/) as icon resource. [An overview over all available icons](http://fontawesome.io/icons/) can be found on their website.
 
