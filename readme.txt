@@ -30,6 +30,10 @@ Feel free to contribute and to fix errors or send improvements via github.
 
 == Changelog ==
 
+= 1.1 =
+* Upgraded to Font Awesome 4.2
+* Support Hexvalues (e.g. #ff3600) as color attribute
+
 = 1.0.1 =
 * Fix wrong line-height for various themes
 

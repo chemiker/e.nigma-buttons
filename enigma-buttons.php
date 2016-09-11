@@ -29,14 +29,15 @@ class Button {
 		$size = self::get_size($args);
 		$label = self::get_label($args);
 		$url = self::get_url($args);
-		$color = self::get_color($args);
 		$border = self::get_border($args);
 		$class = self::get_class($args);
+		$color = self::get_color($args);
+		$color_class = self::get_color_class($args);
 
 		// Content related CSS classes
 		$haslabel = ( empty($label) ? '' : 'has-label' );
 
-		return '<a href="'.$url.'" class="enigma-button '.$haslabel.' '.$size.' '.$color.' '.$border.'"><i class="'.$icon.' '.$class.'"></i>'.$label.'</a>';
+		return '<a href="'.$url.'" class="enigma-button '.$haslabel.' '.$size.' '.$color_class.' '.$border.'" '.$color.'><i class="'.$icon.' '.$class.'"></i>'.$label.'</a>';
 	}
 
 	private static function get_class($args) {
@@ -57,6 +58,13 @@ class Button {
 	}
 
 	private static function get_color($args) {
+		if ( preg_match("/#([a-f0-9]{3}){1,2}\b/i", $args['color']) )
+			return 'style="color: '.$args['color'].'; border-color: '.$args['color'].'"';
+
+		return '';
+	}
+
+	private static function get_color_class($args) {
 		$colors = array( 'green', 'orange', 'purple', 'cyan', 'white', 'red', 'black' );
 
 		if ( ! isset($args['color']) || ! in_array($args['color'], $colors) )
