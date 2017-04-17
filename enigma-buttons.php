@@ -3,11 +3,12 @@
  * Plugin Name: e.nigma buttons
  * Plugin URI:  http://e.nigma.de/portfolio/enigma-buttons
  * Description: Brings beautiful buttons to your WordPress installation.
- * Version:     1.1.1
+ * Version:     1.1.2
  * Author:      Alexander Lüken
  * Author URI:  http://e.nigma.de
  * License:     MIT
  * License URI: license.txt
+ * Text Domain: enigma-buttons
  */
 
 namespace enigmaButtons;
