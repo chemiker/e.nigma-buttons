@@ -54,11 +54,13 @@ This project is released under the MIT license. It uses Font Awesome icons which
 As the plugin this is real free software you are very welcome to fork this project and do whatever you want with it :)
 
 ### Requirements
-* NPM
+* npm
+* Bower
+* Compass
 
 ### Installation
 1. Download the zip archive or clone the repository
-2. move to the proect containing folder and run `npm install gulp gulp-util gulp-concat gulp-compass gulp-watch gulp-uglify gulp-browserify gulp-rename`
+2. move to the project containing folder and run `npm install gulp gulp-util gulp-concat gulp-compass gulp-watch gulp-uglify gulp-browserify gulp-rename`
 3. run `bower install`
 4. run `gulp watch` to continiously watch the CSS files compile them if necessary
 
