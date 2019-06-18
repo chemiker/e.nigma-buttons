@@ -33,9 +33,9 @@ gulp.task('stylesheets', function() {
     .pipe(gulp.dest('dist/stylesheets'))
 })
 
-gulp.task('default', ['fontawesome', 'fonts', 'stylesheets'])
+gulp.task('default', gulp.series('fontawesome', 'fonts', 'stylesheets') )
 
 gulp.task('watch', function() {
   // Watch .scss files
-  gulp.watch(paths.stylesheets, ['fontawesome', 'fonts', 'stylesheets'])
+  gulp.watch(paths.stylesheets, gulp.series('fontawesome', 'fonts', 'stylesheets') )
 })

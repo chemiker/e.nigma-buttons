@@ -1,0 +1,30 @@
+{
+  "name": "e.nigma-buttons",
+  "version": "1.0.0",
+  "description": "Brings beautiful buttons to your WordPress installation",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chemiker@github.com/chemiker/e.nigma-buttons.git"
+  },
+  "author": "Alexander Lüken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chemiker/e.nigma-buttons/issues"
+  },
+  "homepage": "https://github.com/chemiker/e.nigma-buttons#readme"
+}

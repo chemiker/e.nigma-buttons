@@ -12,7 +12,7 @@ a.enigma-button {
 	letter-spacing: 1px;
 	text: {
 		align: center;
-		decoration: none;
+		decoration: none !important;
 	}
 	color: $default-button-color;
 

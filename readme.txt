@@ -1,10 +1,9 @@
 === Plugin Name ===
 Contributors: chemiker
-Donate link: https://flattr.com/profile/chemiker
 Tags: button, post, page, font awesome, icon
 Requires at least: 3.0.1
-Tested up to: 4.7.3
-Stable tag: 1.1.2
+Tested up to: 5.2.1
+Stable tag: 1.1.3
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -29,6 +28,9 @@ Feel free to contribute and to fix errors or send improvements via github.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.1.3 =
+* Minor CSS modifications
 
 = 1.1.2 =
 * Upgraded to Font Awesome 4.7
@@ -80,7 +82,7 @@ The following colors are avaible:
 * red
 * black
 
-In addition to those values you can also use a hex color code (e.g. #ff3600) 
+In addition to those values you can also use a hex color code (e.g. #ff3600)
 
 = Icons =
 *e.nigma buttons* uses [Font Awesome](http://fontawesome.io/) as icon resource. [An overview over all available icons](http://fontawesome.io/icons/) can be found on their website.

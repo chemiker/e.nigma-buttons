@@ -48,7 +48,7 @@ Brings you an orange, large-sized, linked GitHub icon.
 See the FAQ in the repository [Wiki](https://github.com/chemiker/enigma-buttons/wiki).
 
 ## License & copyright
-This project is released under the MIT license. It uses Font Awesome icons which is a project by Dave Gandy. Thanks for this Dave!
+This project is released under the MIT license. It uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Thanks for this Dave!
 
 ## Development
 As the plugin this is real free software you are very welcome to fork this project and do whatever you want with it :)
@@ -63,4 +63,3 @@ As the plugin this is real free software you are very welcome to fork this proje
 2. move to the project containing folder and run `npm install gulp gulp-util gulp-concat gulp-compass gulp-watch gulp-uglify gulp-browserify gulp-rename`
 3. run `bower install`
 4. run `gulp watch` to continiously watch the CSS files compile them if necessary
-
