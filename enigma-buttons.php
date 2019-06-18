@@ -3,7 +3,7 @@
  * Plugin Name: e.nigma buttons
  * Plugin URI:  http://e.nigma.de/portfolio/enigma-buttons
  * Description: Brings beautiful buttons to your WordPress installation.
- * Version:     1.1.2
+ * Version:     1.1.3
  * Author:      Alexander Lüken
  * Author URI:  http://e.nigma.de
  * License:     MIT
@@ -87,7 +87,7 @@ class Button {
 
 		return $args['label'];
 	}
-	
+
 	private static function get_icon($args) {
 		if ( ! isset($args['icon']) )
 			return '';
@@ -97,11 +97,10 @@ class Button {
 
 	private static function get_size($args) {
 		$sizes = array( 'small', 'medium', 'large' );
-		
+
 		if ( ! isset($args['size']) || ! in_array($args['size'], $sizes) )
 			return 'medium';
 
 		return $args['size'];
 	}
 }
-
