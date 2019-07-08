@@ -48,7 +48,8 @@ Brings you an orange, large-sized, linked GitHub icon.
 See the FAQ in the repository [Wiki](https://github.com/chemiker/enigma-buttons/wiki).
 
 ## License & copyright
-This project is released under the MIT license. It uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Thanks for this Dave!
+This project is released under the MIT license. It uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Thanks for this Dave! Font Awesome fonts by Dave Gandy are released under [SIL OFL 1.1](http://scripts.sil.org/OFL).
+
 
 ## Development
 As the plugin this is real free software you are very welcome to fork this project and do whatever you want with it :)

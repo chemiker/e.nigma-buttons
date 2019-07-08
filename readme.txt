@@ -2,8 +2,8 @@
 Contributors: chemiker
 Tags: button, post, page, font awesome, icon
 Requires at least: 3.0.1
-Tested up to: 5.2.1
-Stable tag: 1.1.3
+Tested up to: 5.2.2
+Stable tag: 1.1.4
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -29,6 +29,9 @@ Feel free to contribute and to fix errors or send improvements via github.
 
 == Changelog ==
 
+= 1.1.4 =
+* Update of readme
+
 = 1.1.3 =
 * Minor CSS modifications
 
@@ -50,9 +53,6 @@ Feel free to contribute and to fix errors or send improvements via github.
 * Initial release
 
 == Frequently Asked Questions ==
-
-= Are there any rendered examples of the buttons? =
-Yes. I'm using them in my blog. See [this example](http://e.nigma.de/portfolio/podlove/).
 
 = Are there any reserved CSS classes for the 'class' attribute? =
 Yes. The original idea behind that class attribute was the ability to add additional Font Awesome CSS classes (for spinning, rotating etc.). Several examples can be found in the documentation of [Font Awesome](http://fontawesome.io/examples/).
@@ -85,7 +85,7 @@ The following colors are avaible:
 In addition to those values you can also use a hex color code (e.g. #ff3600)
 
 = Icons =
-*e.nigma buttons* uses [Font Awesome](http://fontawesome.io/) as icon resource. [An overview over all available icons](http://fontawesome.io/icons/) can be found on their website.
+*e.nigma buttons* uses [Font Awesome](http://fontawesome.io/) by Dave Gandy as icon resource. [An overview over all available icons](http://fontawesome.io/icons/) can be found on their website.
 
 = Examples =
 `[button label="My GitHub account" icon="github" color="orange" link="https://github.com/chemiker"]`
