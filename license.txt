@@ -9,8 +9,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-FONT AWESOME
----
+This software uses makes use of Font Awesome (Copyright by Dave Gandy):
 
 Font Awesome fonts by Dave Gandy are released under SIL OFL 1.1 (http://scripts.sil.org/OFL).
+Font Awesome CSS files (shipped as part of this plugin's CSS file) by Dave Gandy are released under MIT license (https://opensource.org/licenses/MIT).

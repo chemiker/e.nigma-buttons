@@ -3,7 +3,7 @@ Contributors: chemiker
 Tags: button, post, page, font awesome, icon
 Requires at least: 3.0.1
 Tested up to: 5.2.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -28,6 +28,9 @@ Feel free to contribute and to fix errors or send improvements via github.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.1.5 =
+* Update of readme
 
 = 1.1.4 =
 * Update of readme
