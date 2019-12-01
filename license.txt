@@ -13,3 +13,5 @@ This software uses makes use of Font Awesome (Copyright by Dave Gandy):
 
 Font Awesome fonts by Dave Gandy are released under SIL OFL 1.1 (http://scripts.sil.org/OFL).
 Font Awesome CSS files (shipped as part of this plugin's CSS file) by Dave Gandy are released under MIT license (https://opensource.org/licenses/MIT).
+
+Furthermore, this software uses tests based on ["sample-plugin"](https://github.com/wp-cli/sample-plugin) which is released under GPLv2 (Copyright by Daniel Bachhuber).

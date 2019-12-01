@@ -2,7 +2,7 @@
 
 *e.nigma buttons* is a WordPress plugin that easily allows you to add buttons to your posts, pages etc.
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/23718d5d9155f120cb77/maintainability)](https://codeclimate.com/github/chemiker/e.nigma-buttons/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/23718d5d9155f120cb77/maintainability)](https://codeclimate.com/github/chemiker/e.nigma-buttons/maintainability) [![Build Status](https://travis-ci.com/chemiker/e.nigma-buttons.svg?branch=master)](https://travis-ci.com/chemiker/e.nigma-buttons)
 
 ## Shortcodes & Attributes
 *e.nigma buttons* adds the shortcode `[button]` to your installation. The following options can be used to adjust the button for your needs:
@@ -59,3 +59,13 @@ As the plugin this is real free software you are very welcome to fork this proje
 4. run `yarn run gulp dev` to continuously watch the (CSS/PHP) files and compile them if necessary
 
 For distribution you can run `yarn run gulp make`. This will create a `dist/` folder ready for submission to the WordPress.org repository.
+
+### Tests
+
+This repository ships with tests. The tests are based on ["sample-plugin"](https://github.com/wp-cli/sample-plugin). The following files are part of the package which is released under GPLv2 (Copyright by Daniel Bachhuber) and have been modified :
+
+* test/*
+* bin/*
+* .travis.yml
+* phpcs.xml.dist
+* phpunit.xml.dist
