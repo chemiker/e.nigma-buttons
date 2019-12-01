@@ -45,7 +45,21 @@ Brings you an orange, large-sized, linked GitHub icon.
 See the FAQ in the repository [Wiki](https://github.com/chemiker/enigma-buttons/wiki).
 
 ## License & copyright
-This project is released under the MIT license. It uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Thanks for this Dave! Font Awesome fonts by Dave Gandy are released under [SIL OFL 1.1](http://scripts.sil.org/OFL). Font Awesome CSS files (shipped as part of this plugin's CSS file) by Dave Gandy are released under [MIT license](https://opensource.org/licenses/MIT).
+This project is released under the MIT license. 
+
+### Icons / Fonts
+
+The plugin uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Font Awesome fonts (Copyright by Dave Gandy) are released under [SIL OFL 1.1](http://scripts.sil.org/OFL). Font Awesome CSS files (shipped as part of this plugin's CSS file) by Dave Gandy are released under [MIT license](https://opensource.org/licenses/MIT).
+
+### Tests
+
+This repository ships with tests. The tests are based on ["sample-plugin"](https://github.com/wp-cli/sample-plugin). The following files are part of the package which is released under GPLv2 (Copyright by Daniel Bachhuber) and have been modified:
+
+* test/*
+* bin/*
+* .travis.yml
+* phpcs.xml.dist
+* phpunit.xml.dist
 
 ## Development
 As the plugin this is real free software you are very welcome to fork this project and do whatever you want with it :)
@@ -59,13 +73,3 @@ As the plugin this is real free software you are very welcome to fork this proje
 4. run `yarn run gulp dev` to continuously watch the (CSS/PHP) files and compile them if necessary
 
 For distribution you can run `yarn run gulp make`. This will create a `dist/` folder ready for submission to the WordPress.org repository.
-
-### Tests
-
-This repository ships with tests. The tests are based on ["sample-plugin"](https://github.com/wp-cli/sample-plugin). The following files are part of the package which is released under GPLv2 (Copyright by Daniel Bachhuber) and have been modified :
-
-* test/*
-* bin/*
-* .travis.yml
-* phpcs.xml.dist
-* phpunit.xml.dist
