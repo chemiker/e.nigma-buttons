@@ -2,10 +2,7 @@
 
 *e.nigma buttons* is a WordPress plugin that easily allows you to add buttons to your posts, pages etc.
 
-## Installation
-
-1. Download the bundle and move it to your WordPress plugin folder
-2. Activate the plugin
+[![Maintainability](https://api.codeclimate.com/v1/badges/23718d5d9155f120cb77/maintainability)](https://codeclimate.com/github/chemiker/e.nigma-buttons/maintainability)
 
 ## Shortcodes & Attributes
 *e.nigma buttons* adds the shortcode `[button]` to your installation. The following options can be used to adjust the button for your needs:
@@ -50,18 +47,15 @@ See the FAQ in the repository [Wiki](https://github.com/chemiker/enigma-buttons/
 ## License & copyright
 This project is released under the MIT license. It uses [Font Awesome](http://fontawesome.io) icons which is a project by Dave Gandy. Thanks for this Dave! Font Awesome fonts by Dave Gandy are released under [SIL OFL 1.1](http://scripts.sil.org/OFL). Font Awesome CSS files (shipped as part of this plugin's CSS file) by Dave Gandy are released under [MIT license](https://opensource.org/licenses/MIT).
 
-
-
 ## Development
 As the plugin this is real free software you are very welcome to fork this project and do whatever you want with it :)
 
 ### Requirements
-* npm
-* Bower
-* Compass
+* yarn
 
 ### Installation
-1. Download the zip archive or clone the repository
-2. move to the project containing folder and run `npm install gulp gulp-util gulp-concat gulp-compass gulp-watch gulp-uglify gulp-browserify gulp-rename`
-3. run `bower install`
-4. run `gulp watch` to continiously watch the CSS files compile them if necessary
+1. Download the zip archive or clone the repository to your WordPress plugin directory
+2. run `yarn install`
+4. run `yarn run gulp dev` to continuously watch the (CSS/PHP) files and compile them if necessary
+
+For distribution you can run `yarn run gulp make`. This will create a `dist/` folder ready for submission to the WordPress.org repository.

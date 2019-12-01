@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-// Font Awesome
-@import "fontawesome.scss";
-@import "compass/css3";
-
 $default-button-color: #494949;
 $default-button-color-hover: #333;
 
@@ -37,7 +33,7 @@ a.enigma-button {
 		line-height: 1.5em;
 		vertical-align: middle;
 		border: 2px solid $default-button-color;
-		@include border-radius( 12px );
+		border-radius: 12px ;
 
 		&:hover {
 			border-width: 2px !important;

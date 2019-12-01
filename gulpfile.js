@@ -1,41 +1,45 @@
 var gulp = require('gulp'),
-    gutil = require('gulp-util'),
     concat = require('gulp-concat'),
-    compass = require('gulp-compass'),
+    merge = require('merge-stream'),
+    sass = require('gulp-sass'),
     watch = require('gulp-watch'),
-    uglify = require('gulp-uglify'),
-    browserify = require('gulp-browserify'),
-    rename = require('gulp-rename');
-
-var dest = './dist';
-var paths = {
-  stylesheets: ['./src/stylesheets/*.scss']
-};
+    stylesheet = 'src/stylesheets/screen.scss'
+    php = 'src/enigma-buttons.php'
 
 gulp.task('fonts', function() {
-  return gulp.src(['bower_components/font-awesome/fonts/fontawesome-webfont.*'])
-    .pipe(gulp.dest('dist/fonts/'));
-});
-
-gulp.task('fontawesome', function() {
-  return gulp.src(['bower_components/font-awesome/css/font-awesome.css'])
-    .pipe(concat('fontawesome.scss'))
-    .pipe(gulp.dest('src/stylesheets/'));
+  return gulp.src(['node_modules/font-awesome/fonts/fontawesome-webfont.*'])
+    .pipe(gulp.dest('fonts/'));
 });
 
 gulp.task('stylesheets', function() {
-  return gulp.src(paths.stylesheets)
-    .pipe(compass({
-    	css: 'dist/stylesheets',
-    	sass: 'src/stylesheets',
-    	style: 'compressed'
-    }))
-    .pipe(gulp.dest('dist/stylesheets'))
+  var screen = gulp.src([stylesheet])
+    .pipe(sass({ outputStyle: 'compressed' }));
+  
+  var fontawesome = gulp.src(['node_modules/font-awesome/css/font-awesome.min.css']);
+
+  return merge(fontawesome, screen)
+    .pipe(concat('screen.min.css'))
+    .pipe(gulp.dest('stylesheets/'));
 })
 
-gulp.task('default', gulp.series('fontawesome', 'fonts', 'stylesheets') )
+gulp.task('php', function() {
+  return gulp.src(php)
+    .pipe(gulp.dest('.'));
+})
 
-gulp.task('watch', function() {
-  // Watch .scss files
-  gulp.watch(paths.stylesheets, gulp.series('fontawesome', 'fonts', 'stylesheets') )
+gulp.task('dev', function() {
+  // Watch .scss files and render on changes
+  gulp.watch([stylesheet, php], gulp.series('fonts', 'stylesheets', 'php') )
+})
+
+gulp.task('make', function () {
+  gulp.series('fonts', 'stylesheets', 'php');
+  gulp.src('fonts/*')
+    .pipe(gulp.dest('dist/fonts/'));
+  gulp.src('stylesheets/*')
+    .pipe(gulp.dest('dist/stylesheets/'));
+  gulp.src('src/assets/*')
+    .pipe(gulp.dest('dist/assets/'));
+  return gulp.src([php, 'src/readme.txt'])
+    .pipe(gulp.dest('dist/'));
 })
