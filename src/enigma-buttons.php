@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: e.nigma buttons
- * Plugin URI:  http://e.nigma.de/portfolio/enigma-buttons
+ * Plugin URI:  https://sciolism.de/projects/e.nigma-buttons/
  * Description: Brings beautiful buttons to your WordPress installation.
- * Version:     1.1.3
+ * Version:     1.1.5
  * Author:      Alexander Lüken
- * Author URI:  http://e.nigma.de
+ * Author URI:  https://sciolism.de
  * License:     MIT
  * License URI: license.txt
  * Text Domain: enigma-buttons
@@ -17,7 +17,7 @@ namespace enigmaButtons;
 
 add_action( 'after_setup_theme', function() {
 	add_action( 'wp_enqueue_scripts', function() {
-		wp_enqueue_style( 'enigma-buttons', plugin_dir_url(__FILE__).'dist/stylesheets/screen.min.css' );
+		wp_enqueue_style( 'enigma-buttons', plugin_dir_url(__FILE__).'stylesheets/screen.min.css' );
 	} );
 } );
 
