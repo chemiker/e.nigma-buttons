@@ -3,6 +3,7 @@
 *e.nigma buttons* is a WordPress plugin that easily allows you to add buttons to your posts, pages etc.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/23718d5d9155f120cb77/maintainability)](https://codeclimate.com/github/chemiker/e.nigma-buttons/maintainability) [![Build Status](https://travis-ci.com/chemiker/e.nigma-buttons.svg?branch=master)](https://travis-ci.com/chemiker/e.nigma-buttons)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fchemiker%2Fe.nigma-buttons.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fchemiker%2Fe.nigma-buttons?ref=badge_shield)
 
 ## Shortcodes & Attributes
 *e.nigma buttons* adds the shortcode `[button]` to your installation. The following options can be used to adjust the button for your needs:
@@ -46,6 +47,9 @@ See the FAQ in the repository [Wiki](https://github.com/chemiker/enigma-buttons/
 
 ## License & copyright
 This project is released under the MIT license. 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fchemiker%2Fe.nigma-buttons.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fchemiker%2Fe.nigma-buttons?ref=badge_large)
 
 ### Icons / Fonts
 
