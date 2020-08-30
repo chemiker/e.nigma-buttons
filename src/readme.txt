@@ -2,7 +2,7 @@
 Contributors: chemiker
 Tags: button, post, page, font awesome, icon
 Requires at least: 3.0.1
-Tested up to: 5.3
+Tested up to: 5.5
 Stable tag: 1.1.5
 License: MIT
 License URI: http://opensource.org/licenses/MIT
